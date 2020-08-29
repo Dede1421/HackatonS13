@@ -99,7 +99,6 @@ function createCard(values) {
     </div>`;
 
   card.querySelector('.js_card-edit').onclick = () => {
-    console.log('edit', card);
     showToEdit(card);
   };
 
